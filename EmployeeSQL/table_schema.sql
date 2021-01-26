@@ -79,3 +79,24 @@ REFERENCES "titles" ("title_id");
 
 ALTER TABLE "salaries" ADD CONSTRAINT "fk_salaries_emp_no" FOREIGN KEY("emp_no")
 REFERENCES "employees" ("emp_no");
+
+-- Check each table to make sure all information was properly imported from CSVs
+SELECT *
+FROM departments
+
+SELECT *
+FROM dept_emp
+
+SELECT *
+FROM dept_manager
+
+SELECT *
+FROM employees
+
+SELECT *
+FROM salaries
+
+SELECT *
+FROM titles
+
+
