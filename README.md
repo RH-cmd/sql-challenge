@@ -237,7 +237,7 @@ Evidence in hand, you march into your boss's office and present the visualizatio
 
 
 
-![employeenumber](https://github.com/RH-cmd/sql-challenge/blob/main/employee_ID_499942.png)
+![employeenumber](https://github.com/RH-cmd/sql-challenge/blob/main/Images/employee_ID_499942.png)
 
 
 
