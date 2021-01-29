@@ -219,7 +219,7 @@ GROUP BY last_name
 ORDER BY COUNT(last_name) DESC;
 ```
 
-## ![Bonus](https://github.com/RH-cmd/sql-challenge/blob/main/Bonus_Analysis.ipynb)
+## Bonus
 
 As you examine the data, you are overcome with a creeping suspicion that the dataset is fake. You surmise that your boss handed you spurious data in order to test the data engineering skills of a new employee. To confirm your hunch, you decide to take the following steps to generate a visualization of the data, with which you will confront your boss:
 
@@ -228,6 +228,8 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 2. Create a histogram to visualize the most common salary ranges for employees.
 
 3. Create a bar chart of average salary by title.
+
+The completed Jupyter Notebook can be found [here.](https://github.com/RH-cmd/sql-challenge/blob/main/Bonus_Analysis.ipynb)
 
 ## Epilogue
 
