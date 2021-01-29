@@ -1,5 +1,13 @@
 # SQL Challenge - Employee Database: A Mystery in Two Parts
 
+## Directory
+
+- [Table Schema](https://github.com/RH-cmd/sql-challenge/blob/main/EmployeeSQL/table_schema.sql)
+- [Employee Queries](https://github.com/RH-cmd/sql-challenge/blob/main/EmployeeSQL/employee_queries.sql)
+- [Entity Relationship Diagram](https://github.com/RH-cmd/sql-challenge/blob/main/Entity_Relationship_Diagram.png)
+- [Bonus Jupyter Notebook](https://github.com/RH-cmd/sql-challenge/blob/main/Bonus_Analysis.ipynb)
+- [CSV Files](https://github.com/RH-cmd/sql-challenge/tree/main/Resources)
+
 ## Background
 
 It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
@@ -19,7 +27,7 @@ Inspect the CSVs and sketch out an ERD of the tables.
 
 #### Data Engineering
 
-* Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
+* Create a table schema for each of the six CSV files. Specify data types, primary keys, foreign keys, and other constraints.
 
 ```
 -- Create tables and import data
@@ -127,7 +135,7 @@ FROM titles
 
 #### Data Analysis
 
-Once you have a complete database, do the following:
+Answer the following:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
@@ -226,15 +234,10 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
 
 
+
 ![employeenumber](https://github.com/RH-cmd/sql-challenge/blob/main/employee_ID_499942.png)
 
 
-## Directory
-
-- [Table Schema](https://github.com/RH-cmd/sql-challenge/blob/main/EmployeeSQL/table_schema.sql)
-- [Employee Queries](https://github.com/RH-cmd/sql-challenge/blob/main/EmployeeSQL/employee_queries.sql)
-- [Entity Relationship Diagram](https://github.com/RH-cmd/sql-challenge/blob/main/Entity_Relationship_Diagram.png)
-- Bonus Jupyter Notebook
 
 
 
